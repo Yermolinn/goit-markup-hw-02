@@ -48,6 +48,9 @@ color: #2196F3;
 
 
 
+
+
+
 /* Кнопки */
 
 
@@ -116,9 +119,6 @@ border-radius: 4px;
 /* Навігація-сайту */ 
 
 
-
-
-
 .site-nav .link {
   color: var(--primary-text-collor);
   text-decoration: none;
@@ -140,6 +140,8 @@ border-radius: 4px;
 
 
 /* Контакти */
+
+
 .contact {
   list-style: none;
 }
