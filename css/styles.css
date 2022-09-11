@@ -1,0 +1,324 @@
+:root {
+  --primary-text-collor: #212121;
+  --secondary-text-collor: #757575;
+  --white-text-collor: #FFFFFF;
+  --title-text-color: #212121;
+  --accent-text-collor: #2196F3;
+  --sec-bgc-color: #F5F4FA;
+}
+
+
+body {
+  margin: auto;
+  background-color: #FFFFFF;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+
+  /* основний колір     #212121
+  другорядний колір     #757575
+  білий колір           #FFFFFF
+  акривний колір        #2196F3 
+  другий колір фону     #2F303A 
+  третій колір фону     #F5F4FA*/
+}
+
+
+.list {
+  list-style: none;
+}
+
+
+/* Лого */
+.logo {
+text-decoration: none;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-text-collor);
+}
+
+
+
+
+/* Кнопки */
+.btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--white-text-collor);
+  background: var(--accent-text-collor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* .btn:hover {
+  background: var(--secondary-text-collor);
+} */
+
+.secondary {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-collor);
+  background: var(--sec-bgc-color);
+  border-radius: 4px;
+}
+
+.btn .secondary:hover,
+.btn .secondary:focus {
+  color: var(--white-text-collor);
+  background: var(--accent-text-collor);
+}
+
+.secondary.current {
+  background: var(--accent-text-collor);
+}
+
+/* .btn.primary 
+  color: var(--white-text-collor);
+  background: var(--accent-text-collor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+
+
+/* .btn.secondary
+  color: var(--white-text-collor);
+  background: var(--accent-text-collor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; */
+
+
+  
+
+
+  
+
+
+
+
+/* Навігація-сайту */ 
+.site-nav .link {
+  color: var(--primary-text-collor);
+  text-decoration: none;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+  color: var(--accent-text-collor);
+}
+
+.site-nav .link.current {
+  color: var(--accent-text-collor);
+}
+
+
+
+
+
+
+
+/* Контакти */
+.contact {
+  list-style: none;
+}
+
+.contact a {
+  color: var(--secondary-text-collor);
+  text-decoration: none;
+}
+
+.contact a:hover,
+.contact a:focus {
+  color: var(--accent-text-collor);
+}
+
+
+
+/* Підвал-сайту */
+.footer {
+  background-color: #2F303A;
+}
+
+.wht-studio {
+  color: var(--white-text-collor);
+}
+
+.blck-studio {
+  color: var(--primary-text-collor);
+}
+
+
+
+
+
+
+
+
+
+
+/* Герой */
+.hero {
+background-color: #2F303A;
+}
+
+
+.hero-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+  /* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Переваги */
+.feat-list .title {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--title-text-color);
+}
+
+.feat-list .text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: var(--secondary-text-collor);
+}
+
+
+
+
+
+/* Чим-займаємося */
+
+.prod-list .title {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+
+color: var(--primary-text-collor);
+}
+
+.prod-list .text {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+letter-spacing: 0.03em;
+  
+color: var(--secondary-text-collor)
+}
+
+
+
+
+
+/* Команда */
+.team {
+font-style: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.title {
+font-weight: 500;
+color: var(--title-text-color);
+}
+
+.text {
+font-weight: 400;
+color: var(--secondary-text-collor);
+}
+
+
+
+
+/* Section */
+
+.section-title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
