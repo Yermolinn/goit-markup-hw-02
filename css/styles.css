@@ -59,9 +59,11 @@ body {
   border-radius: 4px;
 }
 
-/* .btn:hover {
-  background: var(--secondary-text-collor);
-} */
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  color: var(--white-text-collor);
+}
 
 .secondary {
   font-size: 16px;
