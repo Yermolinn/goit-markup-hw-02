@@ -30,7 +30,7 @@ body {
   text-decoration: none;
   font-family: 'Raleway';
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
 
@@ -46,7 +46,7 @@ body {
 
 .btn {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   /* identical to box height, or 188% */
   display: flex;
   align-items: center;
@@ -65,7 +65,7 @@ body {
 
 .secondary {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   /* identical to box height, or 188% */
 
   display: flex;
@@ -107,6 +107,11 @@ body {
 .site-nav .link {
   color: var(--primary-text-collor);
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -127,6 +132,11 @@ body {
 .contact a {
   color: var(--secondary-text-collor);
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .contact a:hover,
@@ -144,7 +154,7 @@ body {
   color: var(--secondary-text-collor);
   text-decoration: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
 
   letter-spacing: 0.03em;
@@ -171,20 +181,20 @@ body {
 
 .hero-title {
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.3;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-text-collor);
 }
 
 /* Переваги */
 
 .feat-list .title {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -193,8 +203,9 @@ body {
 
 .feat-list .text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
+
   letter-spacing: 0.03em;
   color: var(--secondary-text-collor);
 }
@@ -203,19 +214,19 @@ body {
 
 .prod-list .title {
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
-  letter-spacing: 0.06em;
 
+  letter-spacing: 0.06em;
   color: var(--primary-text-collor);
 }
 
 .prod-list .text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   /* identical to box height, or 188% */
-  letter-spacing: 0.03em;
 
+  letter-spacing: 0.03em;
   color: var(--secondary-text-collor);
 }
 
@@ -223,19 +234,27 @@ body {
 
 .team {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   /* identical to box height */
-  text-align: center;
+
   letter-spacing: 0.03em;
 }
 
 .title {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
   color: var(--title-text-color);
 }
 
 .text {
   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
   color: var(--secondary-text-collor);
 }
 
@@ -243,9 +262,9 @@ body {
 
 .section-title {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
